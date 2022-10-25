@@ -1,0 +1,38 @@
+.imageCompressor {
+  height: 100vh;
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(156, 252, 248, 1) 11.2%,
+    rgba(110, 123, 251, 1) 91.1%
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.imageCompressor__input {
+  padding: 16px;
+  border: 1px dashed rgba(110, 123, 251, 1);
+  border-radius: 4px;
+}
+.imageCompressor__imageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.imageCompressor__image {
+  height: 350px;
+  width: 350px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(110, 123, 251, 1);
+  border-radius: 8px;
+}
+.imageCompressor__image img {
+  max-width: 100%;
+  border-radius: 4px;
+}
